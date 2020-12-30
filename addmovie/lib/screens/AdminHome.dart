@@ -200,6 +200,7 @@ class AdminHome extends StatelessWidget{
             child:Image.asset(imgPath,fit: BoxFit.fill,width: 130.0,height: 160.0,),
             
           ),
+          /////////////////DELETE MOVIE////////////////////////////////
              FlatButton(
               shape:RoundedRectangleBorder(
               borderRadius:BorderRadius.circular(10)) ,
@@ -209,6 +210,29 @@ class AdminHome extends StatelessWidget{
                color: Color(0xFFEF0100),
                child: Text(
                  'DELETE MOVIE',
+                   style: TextStyle(
+                  color: Colors.white
+              ),
+            ),
+         
+
+          ),
+
+        
+          SizedBox(height: 5.0,),
+          //////////////////////////VIEW PLACES///////////////
+              FlatButton(
+              shape:RoundedRectangleBorder(
+              borderRadius:BorderRadius.circular(10)) ,
+               onPressed: (){
+                    Navigator.push(
+                    context,
+                   MaterialPageRoute(builder: (context) => ViewPlaces()));
+                
+               },
+               color: Color(0xFFEF0100),
+               child: Text(
+                 'VIEW places',
                    style: TextStyle(
                   color: Colors.white
               ),
