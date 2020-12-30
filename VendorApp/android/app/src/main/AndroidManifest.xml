@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.addmovie">
+    package="com.example.VendorApp">
    <application
         android:label="addmovie"
         android:icon="@mipmap/ic_launcher">

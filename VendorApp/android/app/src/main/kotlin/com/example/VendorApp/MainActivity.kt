@@ -1,4 +1,4 @@
-package com.example.addmovie
+package com.example.VendorApp
 
 import io.flutter.embedding.android.FlutterActivity
 
