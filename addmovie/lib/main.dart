@@ -1,9 +1,9 @@
+import 'package:addmovie/screens/AdminHome.dart';
 import 'package:flutter/material.dart';
-import 'package:addmovie/screens/addMovie.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   final routes = <String, WidgetBuilder>{
-     DeleteMovie.tag: (context) => DeleteMovie(),
+     AdminHome.tag: (context) => AdminHome(),
   };
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
        primarySwatch: Colors.lightBlue,
        fontFamily: 'Langar',
      ),
-     home:DeleteMovie(),
+     home:AdminHome(),
      routes: routes,
    );
   }
